@@ -1,7 +1,8 @@
 def reverse_each(sentence)
+  reverse=[]
   sentence.split.each do |word|
     "#{word.reverse}"
-    sentence.join<<"#{word.reverse}"
+    reverse<<"#{word.reverse}"
   end
-  sentence
+  reverse
 end
